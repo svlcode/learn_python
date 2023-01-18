@@ -18,3 +18,6 @@ s2 = {3, 4, 22, 1}
 print(s.union(s2))
 print(s.difference(s2))
 print(s.intersection(s2))
+
+x = {i for i in range(100) if i % 5 == 0}
+print(x)

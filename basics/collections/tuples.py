@@ -30,3 +30,5 @@ if "vio" in my_tuple:
 else:
     print('"vio" is NOT in the tuple')
 
+x = tuple(i for i in range(100) if i % 5 == 0)
+print(x)

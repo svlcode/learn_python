@@ -1,5 +1,5 @@
 # comprehensions are used to initialize collections and you
-# can thing of them being similar to lambdas
+# can think of them being similar to lambdas
 
 import math
 x = [x for x in range(5)]
