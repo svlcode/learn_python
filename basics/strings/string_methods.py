@@ -22,10 +22,9 @@ print('hello[0:5]: ' + hello[0:5])
 print('hello[-5:]: ' + hello[-5:])
 
 # substring
-print('hello[2:6]: ' + hello[2:7:2])
+print('hello[2:7:2]: ' + hello[2:7:2])
 
 
 hello = 'hello'
 x = 3
 print(hello * x)
-
