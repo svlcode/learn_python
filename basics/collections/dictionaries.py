@@ -1,3 +1,5 @@
+# dictionaries are like objects in JavaScript
+
 x = {'key': 4}
 print(x['key'])
 
