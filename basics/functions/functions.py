@@ -1,6 +1,17 @@
 # functions are actually objects.
 # this means you can actually return them.
 
+message = "hello"
+
+
+# accessing a global variable
+def greet():
+    print(message)
+
+
+greet()
+
+
 def func():
     print('hello')
     # define a function inside another function
@@ -51,5 +62,3 @@ print(x)
 def fun():
     raise Exception('bad')
     print('hello')
-
-
