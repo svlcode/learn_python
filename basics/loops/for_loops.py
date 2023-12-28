@@ -14,6 +14,15 @@ print('backwards')
 for i in range(10, -1, -1):
     print(i)
 
+# access by element
+x = [1, 2, 5, 7, 457, 2, 7]
+for elem in x:
+    print(elem)
+
+for i in "Python":
+    print(i)
+
+
 # access by index
 x = [1, 2, 5, 7, 457, 2, 7]
 for i in range(len(x)):
