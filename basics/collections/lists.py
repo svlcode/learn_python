@@ -1,3 +1,18 @@
+
+# repeat elements in a list
+zeros = [0] * 5
+
+# combine lists
+combined = zeros + ["1", "a", "b"]
+print(combined)
+
+# combine lists
+result = [1, 2, 3] + [4, 5, 6]
+print(result)
+
+# create a list of numbers from 0 to 19
+numbers = list(range(20))
+
 x = [4, True, 'hi']
 y = 'hi'
 print(len(x))
@@ -24,3 +39,10 @@ print(x)
 # remove first occurence of value
 x.remove(4)
 print(x)
+
+# slicing lists
+letters = ['a', 'b', 'c', 'd']
+letters[0] = "A"
+print(letters)
+
+print(letters[0:-1])
