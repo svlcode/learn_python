@@ -1,3 +1,5 @@
+# a tuple is just a read-only list
+
 # tupples are immutable (paranteses are optional)
 x = (4, 5, 0, 2)
 x = 4, 5, 0, 2
@@ -15,6 +17,7 @@ x = [[], (), [[2, 1], [], (3, 5, 7)]]
 def calculate_sum(a, b) -> tuple:
     c = a + b
     return a, b, c
+
 
 a, b, c = calculate_sum(2, 4)
 print(a, b, c)

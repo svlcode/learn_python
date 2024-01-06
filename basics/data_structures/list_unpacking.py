@@ -10,9 +10,19 @@ print(first)
 print(second)
 print(other)
 
-
+# unpacking the first, middle and the last elements of the list
 numbers = list(range(10))
 first, *other, last = numbers
 print(first)
 print(other)
 print(last)
+
+# unpack items of a list
+items = [0, 'a']
+index, letter = items
+
+# unpack tuples
+# enumerate gets a tuple with the index and the value
+letters = ['a', 'b', 'c']
+for index, value in enumerate(letters):
+    print(index, value)

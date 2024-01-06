@@ -46,3 +46,10 @@ letters[0] = "A"
 print(letters)
 
 print(letters[0:-1])
+
+# delete a range of elemets
+del letters[0:3]
+print(letters)
+
+# remove all
+letters.clear()

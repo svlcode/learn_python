@@ -26,4 +26,13 @@ print(f"prime numbers: {x}")
 x = [[int(b) for b in list('{0:0b}'.format(x))] for x in range(1, 8)]
 print(x)
 
+# list of tuples
+items = [
+    ("product1", 10),
+    ("product2", 8),
+    ("product3", 12)
+]
 
+# get prices
+prices = [price for name, price in items]
+print(prices)

@@ -30,6 +30,7 @@ for i in range(len(x)):
 
 
 # alternative using enumerate
+# enumerate function will retrieve a tuple (position, value)
 x = [6, 4, 5, 7, 457, 2, 7]
 for i, value in enumerate(x):
     print(f'item at index {i} is {value}')

@@ -1,6 +1,6 @@
 name = "Vio"
 
-# Falsy values:
+# These are Falsy values:
 # ""
 # 0
 # None
